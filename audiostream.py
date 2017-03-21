@@ -220,7 +220,7 @@ class AudioStream:
     while True:
         self.processAudio()
 
-  
+
   def processAudio (self): 
     """
     Sample audio, encode, send it to the TP
@@ -313,8 +313,6 @@ class AudioStream:
 
 audiostream = AudioStream()
 
-
-# In[ ]:
 
 
 
